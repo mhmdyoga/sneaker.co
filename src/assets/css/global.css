@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "kanit";
+    color: #fff;
+}
+body{
+    background: #111111;
+}
+  
+  .nav {
+    padding: 10px;
+    top: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: #000;
+    width: 100%;
+  }
+  .logo{
+    margin-left: 115px;
+  }
+  
+  .nav ul {
+    margin-right: 125px;
+  }
+
+  .nav a {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 12px;
+  }
+  
+  .nav a.router-link-exact-active {
+    border-bottom: 2px solid #fff;
+  }
+  .hero{
+    padding: 105px;
+    margin: 105px;
+  }
+  .info{
+    font-size:75px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title-1{
+    margin-left: -125px;
+  }
+  .title-2{
+    text-transform: uppercase;
+    margin-right: -105px;
+  }
+  .imgBox{
+    position: absolute;
+    top: 60vh; 
+    left: 40%;
+    margin-top: 345px;
+    margin-left: 20px;
+    transform: translate(-50%, -50%) scale(1.1);
+    animation: bounce 3s infinite ease-in-out;
+    animation-delay: 3s;
+  }
+  .imgBox1{
+    position: absolute;
+    top: 60vh; 
+    left: 50%;
+    margin-top: 345px;
+    margin-left: 20px;
+    transform: translate(-50%, -50%) scale(1.1);
+    animation: bounce 3s infinite ease-in-out;
+    animation-delay: 3s;
+  }
+  @keyframes bounce {
+    0%{
+        top: 2vh;
+    }
+    50%{
+        top: 5vh;
+    }
+    100%{
+        top: 2vh;
+    }
+  }
+  .product-details{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -126px;
+    gap: 2em;
+    margin-right: -115px;
+  }
+  .detail{
+    background: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  .detail1{
+    background: #000;
+    padding: 12px;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  .detail,
+  .detail1{
+    border-radius: 16px;
+  }
+  .subtitel{
+    margin-top: 226px;
+    margin-left: -126px;
+  }
+  .subtitel p{
+    color: #585858;
+  }
+  .btn button a {
+    font-family: "Kanit";
+    font-weight: bold;
+  }
+  .btn{
+    align-items: center;
+    margin-left: 185px;
+    margin-top: 45px;
+  }
+  .btn button {
+    width: 85px;
+    height: 42px;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .marquee {
+    position: relative;
+    bottom: -44px;
+    width: 1324px;
+    margin: 0 auto;
+    padding: 0.4em 0;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 2;
+    background: #000;
+    display: flex;
+    align-items: center;
+    /* display: inline-block; */
+    margin-left: -205px;
+  }
+  .marquee span {
+    font-family: "911 porscha";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    mix-blend-mode: normal;
+    font-size: 2em;
+    padding-left: -10%;
+    animation: marquee-animation 80s linear infinite;
+  }
+  @keyframes marquee-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  .collab{
+    margin: 45px;
+    padding: 45px;
+  }
+  .collab h2{
+    color: #585858;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .logos{
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    margin-left: -76px;
+  }
+  .logos img{
+    margin-left: 44px;
+  }
+  .logos .nb{
+    margin-top: 65px;
+  }
+  .image1{
+    background: #000;
+    width: 281px;
+    height: 457px;
+    border-radius: 8px;
+  }
+  .hero3 h2{
+    color: #585858;
+    margin-left: -125px;
+  }
+  .images1{
+    margin-left: 14px;
+    margin-top: 5px;
+  }
+  .images1 img{
+    margin-top: 125px;
+  }
+  .img{
+    display: flex;
+    margin: 85px;
+  }
+  .img2{
+    margin-left: 44px;
+  }
+  .images2{
+    background: #000;
+    gap: 2rem;
+    width: 502px;
+    height: 211px;
+    border-radius: 16px;
+    /* margin-top: 125px; */
+  }
+  .imgs2 img{
+    margin-top: -125px;
+    margin-left: 64px;
+  }
+  .images3{
+    background: #000;
+    width: 502px;
+    height: 211px;
+    margin-top: 32px;
+    border-radius: 16px;
+  }
+  .imgs3 img{
+    margin-top: -65px;
+    margin-left: 64px;
+  }
+  .menus{
+    margin-left: 24px;
+    margin-top: 45px;
+    font-size: 12px;
+  }
+  .menus h2 span{
+    margin-top: 6px;
+    color: #585858;
+  }
+  .footer{
+    margin-top: -136px;
+    margin-left: 75px;
+  }
+  .footer span{
+    margin-bottom: -45px;
+  }
+  .in{
+    margin-top: 75px;
+    margin-left: 25px;
+  }
+  .in span{
+     color: #585858;
+  }
+  .about{
+    margin: 55px;
+    padding: 55px;
+    margin-top: -15px;
+  }
+  .abouts h2{
+    font-size: 38px;
+    color: #585858;
+    padding: 25px;
+    margin: 25px;
+    margin-bottom: -24px;
+  }
+  .aboutimg{
+    margin-top: -75px;
+    margin-left: 245px;
+  }
+  .abouts1 h2{
+    text-align: center;
+  }
+  .corner{
+    margin: 75px;
+    padding: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -25px;
+  }
+  .view{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .reviews{
+   background: #000;
+    border-radius: 8px;
+    margin: 45px;
+    padding: 45px;
+    margin-left: 5px;
+    width: 366px;
+    height: 172px;
+  }
+  .review h2{
+    color: #585858;
+  }
+  .reviews-title{
+    margin-top: -25px;
+  }
+  .reviews-title .name {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+  .reviews-title .coment{
+    margin-top: 24px;
+  }
